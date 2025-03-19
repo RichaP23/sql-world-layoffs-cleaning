@@ -30,7 +30,7 @@ The dataset contains information about company layoffs across the globe, includi
 
 📈 Read More on My Blog
 I wrote a blog post about my process here:
-👉 My First Data Cleaning Project with SQL
+👉 My First Data Cleaning Project with SQL : https://medium.com/@richapragya003/my-first-data-cleaning-project-with-sql-eb6d6da2ada6
 
 📁 Project Files
 layoffs_data.sql – Raw SQL table structure & data
