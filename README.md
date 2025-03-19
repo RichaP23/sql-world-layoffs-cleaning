@@ -32,9 +32,17 @@ The dataset contains information about company layoffs across the globe, includi
 I wrote a blog post about my process here:
 👉 My First Data Cleaning Project with SQL : https://medium.com/@richapragya003/my-first-data-cleaning-project-with-sql-eb6d6da2ada6
 
-📁 Project Files
-layoffs_data.sql – Raw SQL table structure & data
-data_cleaning_script.sql – All queries used in the cleaning process
+## 📁 Project Files
+
+- `layoffs_data.csv` – Raw dataset (CSV format)
+- `layoffs_data.sql` – SQL version of the raw dataset (schema + data)
+- `staged_table_creation.sql` – Script to create a staging table from the original dataset
+- `data_checkout.sql` – Initial exploration of the data
+- `duplicate_removal.sql` – Remove duplicate records using `ROW_NUMBER()` and CTEs
+- `text_to_date.sql` – Convert text-based date column into proper SQL `DATE` format
+- `filling_empty_laidoffs.sql` – Replace empty layoff counts using average by company & industry
+- `finding_ways_to_fill_more.sql` – Additional techniques to identify and fix missing data
+
 README.md – Project documentation
 🤝 Let's Connect!
 Feel free to reach out or suggest improvements. Contributions are welcome!
